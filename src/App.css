@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* for all anchor tag */
+
+a {
+    color: rgb(108, 130, 253);
+    /* color: blue; */
+    text-decoration: none;
+}
+
+a .active_class {
+    color: white;
+}
+
+a:hover {
+    color: rgb(20, 230, 100);
+}
+
+/* for navnbar */
+
+#mynav {
+    background-color: rgb(34, 27, 27);
+    height: 15em;
+    overflow-y: auto;
+    width: 130%;
+}
+
+#ullist {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-size: 1em;
+    /* padding-left: 10em; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: white;
+    background-color: black;
+    /* height: 5em; */
+    list-style-type: none;
+}
+
+#postnav {
+    background-color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    top: 5em;
+    width: 40%;
+    line-height: 1.7em;
+    border: 1px solid black;
+}
+
+.postdiv {
+    padding-left: 1em;
+}
+
+.postdiv:hover {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+#summary {
+    color: chartreuse;
+}
+
+#someourLink {
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+
+/* for Nav1 */
+
+#nav_ul_list {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* font-size: 2em; */
+}
+
+.logonav1 {
+    margin-top: 1.7em;
+    padding-right: 2em;
+    font-size: 1.6em;
+}
+
+#name1 {
+    border-bottom-color: rgb(230, 25, 25);
+    border: 10px solid white;
+    border-bottom-color: rgb(54, 84, 218);
+}
+
+#name2 {
+    border: 10px solid white;
+    border-bottom-color: rgb(230, 25, 25);
+}
+
+#name3 {
+    border: 10px solid white;
+    border-bottom-color: rgb(202, 214, 25);
+}
+
+#collegeName {
+    position: absolute;
+    font-size: 0.6em;
+    margin-top: 4em;
+    margin-left: 2em;
+    /* top: 1em; */
+}
+
+#collegeName h2 {
+    font-size: 2.3em;
+    /* color: mediumblue; */
+}
+
+#uitlogo {
+    position: absolute;
+    left: 50em;
+    top: -1.6em;
+    width: 23%;
+}
+
+/* for TimeCot */
+
+#TimeshowNav {
+    display: flex;
+    margin-left: 1.5em;
+}
+
+#dateTime {
+    margin-left: 25em;
+    margin-top: 1em;
+}
+
+/* for containetr for notice */
+
+#container {
+    display: flex;
+    margin-top: 3em;
+}
+
+#leftContainer {
+    width: 26%;
+    /* background-color: mediumblue; */
+    padding-left: 1em;
+}
+
+#rightContainer {
+    /* background-color: mediumseagreen; */
+    width: 70%;
+    padding-left: 5em;
+}
+
+/* for home */
+
+#carouselExampleCaptions {
+    width: 80%;
+    margin: auto;
+}
+
+#coursel {
+    background-color: azure;
+    margin: auto;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    height: 4em;
+    text-align: center;
+    color: white;
+}
+
+/* for conatact us */
+
+#contactPage {
+    border: 1px solid black;
+    margin-top: 1em;
+    line-height: 1em;
+}
+
+#admssionRelatedInfo {
+    margin-top: 1em;
+    padding-top: 0.5em;
+    border: 1px solid black;
+}
+
+/* for training and placement  */
+
+#training {
+    border: 1px solid black;
+    margin-top: 2em;
+    padding-left: 1em;
+}
+
+#mrRupancontent {
+    line-height: 1em;
+}
+
+#placementContent {
+    padding-top: 1em;
+}
+
+/* for scholor ship  */
+
+#scholorLink {
+    border: 1px solid black;
+}
+
+/* for OlArchivedNotice */
+
+#oldNoticeArchive {
+    border: 1px solid black;
+    padding-left: 1em;
+}
+
+#oldnoticetitle {
+    margin-bottom: 1em;
+}
+
+.old_notice_class a {
+    color: blue;
+}
+
+/* for About page */
+
+#aboutinstitute {
+    padding-left: 1em;
+}
+
+#aboutinstitute {
+    margin-top: 3em;
+    border: 1px solid black;
+}
+
+#aboutTitle {
+    padding-top: 0.5em;
+    /* padding-left: 1em; */
+}
+
+#imgPrincipal {
+    float: right;
+}
